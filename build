@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd src/
+clang -Wall -Wextra -pedantic -std=c99 -g -o main main.c
